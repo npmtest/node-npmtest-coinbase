@@ -1,6 +1,6 @@
 # npmtest-coinbase
 
-#### test coverage for  [coinbase (v2.0.6)](https://github.com/coinbase/coinbase-node)  [![npm package](https://img.shields.io/npm/v/npmtest-coinbase.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-coinbase) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-coinbase.svg)](https://travis-ci.org/npmtest/node-npmtest-coinbase)
+#### basic test coverage for  [coinbase (v2.0.6)](https://github.com/coinbase/coinbase-node)  [![npm package](https://img.shields.io/npm/v/npmtest-coinbase.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-coinbase) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-coinbase.svg)](https://travis-ci.org/npmtest/node-npmtest-coinbase)
 
 #### The Coinbase API for Node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-coinbase/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-coinbase/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-coinbase/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-coinbase/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-coinbase/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-coinbase/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-coinbase/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-coinbase/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-coinbase/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-coinbase/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-coinbase/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-coinbase/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "mocha -R spec"
     },
-    "version": "2.0.6"
+    "version": "2.0.6",
+    "bin": {}
 }
 ```
 
